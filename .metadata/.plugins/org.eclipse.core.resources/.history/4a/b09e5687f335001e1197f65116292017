@@ -1,0 +1,28 @@
+package day22;
+
+public class Grade {
+	void gradegiven(int score)
+	{
+		if(score>90);
+		{
+			System.out.println("A grade");
+		}
+		elseif(score>=80 && score<90);
+		{
+			System.out.println("B grade");
+		}
+		elseif(score>=70 && score<80);
+		{
+			System.out.println("C grade");
+		}
+		elseif(score>=60 && score<70);
+		{
+			System.out.println("D grade");
+		}
+		else
+		{
+			System.out.println("fail get... lost.....");
+		}
+	}
+
+}

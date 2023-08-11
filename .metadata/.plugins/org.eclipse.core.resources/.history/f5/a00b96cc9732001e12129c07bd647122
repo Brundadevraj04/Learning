@@ -1,0 +1,18 @@
+package temperature;
+
+import java.util.Scanner;
+
+public class TemperatureConverterapp 
+{
+	public static void main(String[] args)
+	{
+		Scanner scan =new Scanner(System.in);
+		System.out.println("enter the temperature");
+		double F=scan.nextDouble();
+		double C=scan.nextDouble();
+		TemperatureConverter temperatureConverter=new TemperatureConverter();
+		C=temperatureConverter.convertFahrenHeitToCelsius(F);
+		System.out.println(C);
+	}
+
+}

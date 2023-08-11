@@ -1,0 +1,12 @@
+package journycalculator;
+
+public class JourneyCalculator {
+	public static void main(String[] args) {
+		
+	}
+	public static double calculateDistance(double speed,double time)
+	{
+		return null;
+	}
+
+}

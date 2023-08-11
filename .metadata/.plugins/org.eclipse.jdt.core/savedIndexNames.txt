@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Brunda2021\july2023\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+2540522082.index
+1865797976.index
+4198493059.index
+1066527059.index

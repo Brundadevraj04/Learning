@@ -1,0 +1,19 @@
+package journycalculator;
+
+import java.util.Scanner;
+
+public class JourneyCalculator {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter speed travelled");
+		double speed=scan.nextDouble();
+		System.out.println("enter the time taken to travel");
+		double time=scan.nextDouble();
+		System.out.println(calculateDistance(speed,time));
+	}
+	public static double calculateDistance(double speed,double time)
+	{
+		return speed*time;
+	}
+
+}

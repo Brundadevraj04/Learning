@@ -1,0 +1,14 @@
+package day22;
+
+import java.util.Scanner;
+
+public class demo 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the score");
+		int num=scan.nextInt();		
+	}
+
+}

@@ -1,0 +1,10 @@
+package temperature;
+
+public class TempearatureConverter 
+{
+	public double convertFahrenHeitToCelsius(double fahrenheit)
+	{
+		return 0.0;
+	}
+
+}
